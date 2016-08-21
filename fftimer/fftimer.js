@@ -135,7 +135,7 @@ fft = {
         });
 
         var marginSize = 5;
-        var numRows = 2;
+        var numRows = 3;
         var buttonWidth = (document.documentElement.clientWidth / Math.round(fft.data.length / numRows)) - 3;
         var buttonHeight = (document.documentElement.clientHeight - $('.menu').height() - 0) / numRows;
         $('.player').css('height', buttonHeight - (marginSize * 2));
