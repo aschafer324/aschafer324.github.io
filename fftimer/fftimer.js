@@ -50,13 +50,13 @@ fft = {
     data: null,
     buttonTemplate: "<div class=\"player\" style=\"background-color:*|BGCOLOR|*\" id=\"*|ID|*\"><div class=\"name\">*|NAME|*</div><div class=\"order\">*|ORDER|*</div><div class=\"football\"></div><div class=\"time\">*|TIMELEFT|*</div></div>",
     interval: null,
-    mnf: new Audio('/content/mnf.mp3'),
-    fox: new Audio('/content/fox.mp3'),
+    mnf: new Audio('content/mnf.mp3'),
+    fox: new Audio('content/fox.mp3'),
     timeStarted: 0,
     
     init: function () {
         var img = new Image();
-        img.src = '/images/football-animation.gif';
+        img.src = 'images/football-animation.gif';
         var draftOrder = localStorage.getItem('draftOrder');
         if (draftOrder) {
             fft.data = JSON.parse(draftOrder);

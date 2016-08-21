@@ -27,7 +27,7 @@
 }
 
 .player .football {    
-    background-image:url(/Images/football-animation.gif);
+    background-image:url(images/football-animation.gif);
     background-repeat:no-repeat;
     position: absolute;
     top:70px;
